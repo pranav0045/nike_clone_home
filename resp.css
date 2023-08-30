@@ -1,0 +1,831 @@
+
+/* making a responsive navbar */
+
+@media  (max-width:1000px) {
+    
+    .main-nav{
+        background-color: aqua;
+        padding: 0 2vw;
+    }
+
+    .nav-items h4:last-child{
+        display: none;
+    }
+
+    .search input{
+        padding:1.2vw 3vw;
+        font-size: 1.4vw;
+    }
+
+    .upper-nav{
+        padding: 0 3vw;
+    }
+
+
+    .upper-nav p{
+        font-size: 12px;
+    }
+
+    .subfooter{
+        gap: 80px;
+    }
+
+    .left-foot{
+        width: 80%;
+    }
+
+ 
+    
+}
+
+
+
+/* media query2 */
+
+@media (max-width:780px) {
+    
+    .nav-items h4:nth-child(5){
+        display: none;
+    }
+
+    .nav-items h4{
+        font-size: 2vw;
+    }
+
+    .nav-items{
+        margin-right: 30px;
+    }
+
+    .search input{
+        padding: 1vw 5vw;
+        width: 80%;
+        font-size: 2vw;
+    }
+
+    .text-container{
+        height: 30vh;
+    }
+
+  
+    .big-text{
+        font-size: 2.5vw;
+        margin-bottom: 5px;
+    }
+
+    .small-text{
+        font-size: 2vw;
+    }
+
+    .swap-icons{
+        font-size: 2.5vw;
+    }
+
+   .shoes-card .col{
+        font-size: 2.6vw;
+    }
+    
+    .card h3{
+        font-size: 2.5vw;
+    }
+
+    .big-video .col{
+        font-size:2.5vw;
+    }
+
+    .card-container{
+        height: 60vh;
+    }
+
+    .latest-img .col{
+        font-size: 3vw;   
+    }
+
+    .left-upper-nav{
+        gap: 12px;
+    }
+
+    .search i{
+        font-size: 2.3vw;
+    }
+
+    .latest-img{
+        margin-top: 12.5vw;
+    }
+    
+    .big-video {
+        margin-top: 70px;
+    }
+
+    .essentials .col{
+
+        font-size: 2.5vw;
+    }
+
+    
+.featured .col{
+
+    font-size: 2.5vw;
+}
+
+.part3{
+    margin-top: 8vw;
+}
+
+.part2{
+    height: 20vh;
+    margin-top: 45px;
+}
+
+
+.image-card{
+    flex-direction: column;
+}
+
+.left-img{
+    width: 100%;
+}
+
+.right-img{
+    width: 100%;
+}
+
+.text-down p{
+  font-size: 2.6vw;
+}
+
+.text-container p{
+    font-size: 2vw;
+}
+
+.btn{
+    font-size: 2.5vw;
+    padding: 2vw 0;
+}
+
+.btn2{
+    padding: 2vw 2vw;
+    font-size: 2.5vw;
+}
+
+
+.essent-img{
+    flex-direction: column;
+}
+
+.essent-img1{
+    width: 100%;
+}
+
+.essent-img2{
+    width: 100%;
+}
+
+.essent-img3{
+    width: 100%;
+
+}
+
+.essentials{
+    height: 90vh;
+}
+
+.white-btn button{
+    font-size: 2.5vw;
+    padding: 2vw 1vw;
+}
+
+
+/* shoes container */
+
+
+.cards-shoes{
+    /* background-color: aqua; */
+    width: 70%;
+}
+
+
+.pricing p{
+    font-size: 2.2vw;
+}
+
+.subfooter{
+    gap: 15px;
+    padding-block: 2vw;
+    height: 50vh;
+    /* padding-block: 2vw; */
+}
+
+.head{
+    font-size: 3.3vw;
+}
+
+
+/* footer */
+
+
+.left-foot{
+    width:85%;
+    gap: 40px;
+    margin-left: 20px;    
+}
+
+
+
+.three{
+    gap: 5px;
+}
+
+.right-foot{
+    gap: 15px;
+    margin-right: 10px;
+}
+
+.right-foot i{
+    height: 35px;
+    width: 35px;
+}
+
+.copy{
+    justify-content: space-evenly;
+}
+
+.copy .del{
+  display: none;
+}
+
+.fist-menu{
+    gap: 5px;
+    padding-inline: 1vw;
+}
+
+.fist-menu h4{
+    font-size: 2vw;
+}
+
+
+.second-menu{
+    gap: 6px;
+    padding-inline: 1vw;
+
+}
+
+.second-menu h4{
+    font-size: 2vw;
+}
+
+.menu{
+    padding-inline: 1vw;
+}
+    
+}
+
+
+/* media query 3 for mobile */
+
+@media (max-width:550px) {
+    
+    .nav-items{
+        display: none;
+    }
+
+    .slide-bar{
+        display: block;
+        position: fixed;
+        left: -120%;
+        top: 10%;
+        transition: all .4s linear;
+        background-color: #fff;
+        padding-inline: 3vw;
+        padding-block: 5vw;
+        border-radius: 10px;
+    }
+
+    .search {
+        width: 70%;
+    }
+
+    .search input{
+        padding:1vw 6vw;
+        font-size: 2.8vw;
+    }
+
+    .search i{
+        font-size: 2.8vw;
+    }
+    .nav-icons img{
+        padding: 1.5vw;
+    }
+
+    .hamburger{
+        margin-left: 20px;
+    }
+
+    .left-upper-nav p{
+        font-size: 2.5vw;
+    }
+
+    .cards-shoes{
+        margin-right: 40px;
+        width: 80%;
+    }
+
+    .subfooter{
+        gap: 10px;
+        padding-inline: 2vw;
+    }
+
+
+    .subfoot-items{
+        gap: 12px;
+    }
+    .right-foot{
+        height: 70%;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 25px;
+    }
+
+    .upper-nav{
+        padding: 0 2vw;
+    }
+
+    .left-foot{
+        width: 140%;
+    }
+
+    .big-text{
+        font-size: 2.8vw;
+        margin-bottom: 8px;
+    }
+
+    .small-text{
+        font-size: 2.4vw;
+    }
+
+    .small-text span{
+        display: none;
+    }
+
+    .main-page{
+        height: 65vh;
+    }
+
+    .text-container p{
+        font-size: 2.5vw;
+    }
+
+
+    /* changing all containers font sizes */
+    
+    .shoes-card .col{
+        font-size: 3.2vw;
+    }
+
+    .big-video .col{
+        font-size: 3.2vw;
+
+    }
+    
+    .featured .col{
+        font-size: 3.2vw;
+
+    }
+
+
+    .text-down p{
+        font-size: 3.2vw;
+    }
+
+    .btn2{
+        font-size: 3vw;
+    }
+
+    .btn{
+        font-size: 3vw;
+    }
+
+    .latest-img{
+        margin-top: 13vw;
+    }
+
+    .essentials .col{
+        font-size: 3.2vw;
+    }
+
+    .white-btn button{
+        font-size: 2.8vw;
+    }
+
+    .Dont-miss{
+        height: 100%;
+    }
+
+
+    .latest-img .col{
+        font-size: 3.5vw;
+    }
+
+    .Dont-miss-img{
+        height: 60vh;
+    }
+
+    .m-top{
+        height: 2vh;
+    }
+
+    .card-container-second{
+        margin-top:1vh;
+    }
+    
+
+    .cards-shoes img{
+        overflow: hidden;
+    }
+
+    .pricing p{
+        font-size: 3.2vw;
+    }
+
+   .main-nav{
+    background-color:aqua;
+   }
+
+   .cards-shoes{
+    width: 100%;
+   }
+
+
+ 
+}
+
+
+/* 4th media query */
+
+@media (max-width:455px) {
+    
+
+    .main-page{
+        height: 55vh;
+    }
+    .search input{
+        font-size: 3.7vw;
+        padding: 0 7.4vw;
+        width: 90%;
+    }
+
+    .search i{
+     font-size: 3.4vw;
+    }
+
+    .left-upper-nav p{
+        font-size: 3vw;
+    }
+
+    .big-text{
+        font-size: 4vw;
+        width: 100%;
+    }
+
+    .btn{
+        font-size: 4vw;
+    }
+
+
+    /* shoes section */
+
+   .shoes-card .col{
+    font-size: 4vw;
+   }
+
+   .big-video .col{
+    font-size: 4vw;
+   }
+
+   .big-video{
+    height: 50vh;
+   }
+
+   .part2{
+    /* margin-top: 12vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   
+  
+   .featured .col{
+    font-size: 4vw;
+   }
+
+   .text-down p{
+    font-size: 3.8vw;
+   }
+
+   .latest-img .col{
+    font-size: 4.4vw;
+   }
+
+   .latest-img{
+    height: 50vh;
+    margin-top: 14vw;
+   }
+
+   .part3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   .essentials .col{
+    font-size: 4vw;
+   }
+
+   .white-btn button{
+    font-size: 3.8vw;
+   }
+
+   .m-top{
+    margin-top: 14vh;
+   }
+
+   .cards-shoes{
+    width: 100%;
+    margin-right: 50px;
+   }
+
+   .pricing{
+    display: none;
+   }
+
+   .swap-icons{
+    font-size: 4vw;
+   }
+
+   .card{
+    max-width: 382px;
+   }
+
+   .card img{
+    width: 382px;
+   }
+
+   .card h3{
+    font-size: 3.5vw;
+   }
+
+
+    .small-text{
+        display: none;
+    }
+
+
+    .text-container{
+        gap: 10px;
+        margin-top: 4vw;
+        height: 20vh;
+    }
+
+    .text-container h1{
+        font-size: 5vw;
+        width: 70%;
+    }
+
+    .text-container p{
+        display: none;
+    }
+
+ 
+   .delfoot{
+    display: none;
+   }
+
+    .deli{
+        display: none;
+    }
+
+    .right-foot{
+        justify-content: center;
+
+    }
+
+    .main-page{
+        height: 45vh;
+    }
+
+    .main-nav{
+        background-color: #fff;
+    }
+  
+
+    
+}
+
+
+/* 5th media query */
+
+@media (max-width:410px) {
+
+
+
+    .left-upper-nav p{
+        font-size: 3.5vw;
+    }
+    
+    .search input{
+        width: 88%;
+        margin-left: 3px;
+        font-size: 4.5vw;
+        padding: 0 10vw;
+
+        
+    }
+
+    .right-foot{
+        justify-content: center;
+        margin-top: 25px;
+    }
+ 
+     .head{
+        font-size: 4vw;
+     }
+
+
+    .search i{
+        font-size: 4.2vw;
+        margin-left: 10px;
+    }
+
+    .main-nav{
+        background-color: #fff;
+    }
+
+
+    .shoes-card .col{
+        font-size: 4.8vw;
+    }
+
+    .card{
+       max-width:375px;  
+    }
+
+    .card img{
+        width: 375px;
+    }
+
+    .swap-icons{
+        font-size: 4.5vw;
+    }
+
+    .big-video .col{
+        font-size: 4.8vw;
+    }
+
+    .big-video{
+        height: 45vh;
+    }
+
+    .featured .col{
+        font-size: 4.8vw;
+    }
+
+    .btn2{
+        font-size: 4.5vw;
+    }
+
+    .latest-img .col{
+        font-size: 5vw;
+    }
+
+    .latest-img{
+     height: 45vh;
+    }
+
+    .essentials .col{
+        font-size: 4.8vw;
+    }
+
+    .white-btn button{
+        font-size: 4.5vw;
+    }
+
+    .btn{
+        font-size: 4.5vw;
+    }
+
+    .text-down p{
+        font-size: 4.5vw;
+    }
+
+    .cards-shoes{
+        width: 100%;
+        margin-right: 65px;
+    }
+
+    .card h3{
+        font-size: 4.3vw;
+    }
+
+}
+
+
+
+/* 6th media query pixel 5 */
+
+@media (max-width:394px) {
+
+    .card{
+        max-width: 360px;
+    }
+
+    .card img{
+        width: 360px;
+    }
+    
+}
+
+
+/* 7th media query  */
+
+@media (max-width:376px) {
+
+    .card{
+        max-width: 340px;
+    }
+
+    .card img{
+        width: 340px;
+    }
+
+    .cards-shoes{
+        margin-right: 90px;
+    }
+
+   
+    .subfooter{
+        overflow: hidden;
+    }
+
+    .head{
+        font-size: 4vw;
+    }
+    .right-foot{
+        justify-content: flex-start;
+        margin-top: 11vw;
+    }
+   
+}
+
+@media (max-width:360px) {
+
+    .card{
+        max-width: 330px;
+    }
+
+    .card img{
+        width: 330px;
+    }
+
+   
+    .cards-shoes{
+        margin-right: 100px;
+    }   
+
+    .search input{
+        margin-left: 20px;
+        width: 83%;
+        padding: 0 10vw;
+    }
+    
+    .search i{
+        margin-left: 20px;
+    }
+
+    .right-foot{
+        justify-content: flex-start;
+        margin-top: 37px;
+
+    }
+}
+
+@media (max-width:280px) {
+
+    .card{
+        max-width: 260px;
+    }
+
+    .card img{
+        width: 260px;
+    }
+    
+}
+
+@media (max-width:336px) {
+
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
